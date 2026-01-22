@@ -44,7 +44,6 @@ function BlogDetail() {
     return (
         <div className="p-6 max-w-4xl mx-auto">
             <Card className="overflow-hidden">
-                {/* Cover Image */}
                 {data.coverImage && (
                     <img
                         src={data.coverImage}
